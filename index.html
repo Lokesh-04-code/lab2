@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Lokesh's Learning Page</title>
+    
+</head>
 <body>
 
     <div>
-        <h1>Hello world Good Morning <br></br> This is Lokesh</h1>
+        <h1>Hello world, Good Morning!<br>This is Lokesh</h1>
         <h2>Learning New Tags</h2>
         <p>This text is <strong>very important</strong> and this is <em>emphasized</em>.</p>
     </div>
@@ -24,14 +28,30 @@
         <li>Build a website</li>
     </ol>
 
+    <hr>
+
     <h3>Guess The image</h3>
-    <img style="width:200px" src="./docker.png" alt="A grey square placeholder"><br/>
+    <img style="width:200px; border-radius: 10px;" src="./docker.png" alt="Docker Logo"><br/>
+    
     <form>
-    <input type="radio" name="image" value="ship"> ship <br/>
-    <input type="radio" name="image" value="docker"> docker <br/>
-    <input type="radio" name="image" value="boat"> boat <br/>
-    <input type="submit">
+        <input type="radio" id="ship" name="image" value="ship"> <label for="ship">ship</label> <br/>
+        <input type="radio" id="docker" name="image" value="docker"> <label for="docker">docker</label> <br/>
+        <input type="radio" id="boat" name="image" value="boat"> <label for="boat">boat</label> <br/>
+        <input type="submit" value="Submit Answer">
     </form>
+
+    <hr>
+
+    <h3>Video Introduction</h3>
+    
+
+<iframe width="640" height="360" 
+    src="https://www.youtube.com/embed/qz0aGYrrlhU" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
 </body>
 </html>
